@@ -1,0 +1,45 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1"
+    },
+    "exported_at": "2020-10-10T09:36:20-04:00",
+    "name": "Python-3.6",
+    "author": "yajtpg@gmail.com",
+    "description": "Pterodactyl egg made for Python 3.6",
+    "image": "quay.io\/yajtpg\/pterodactyl-images:python-3.6",
+    "startup": ".\/start.sh",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{\r\n    \"custom\": true,\r\n    \"location\": \"logs\/latest.log\"\r\n}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#! \/bin\/bash\r\ncd \/home\/container\r\necho mmmmmmmmmmm",
+            "container": "debian:buster-slim",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Command 1",
+            "description": "First Command used to start the server.",
+            "env_variable": "STARTUP_CMD",
+            "default_value": "pip install -r requirements.txt",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:256"
+        },
+        {
+            "name": "Command 2(Optional)",
+            "description": "Second Command used to start the server. (Will be run if the first command is not in a loop)",
+            "env_variable": "SECOND_CMD",
+            "default_value": "python3 bot.py",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:256"
+        }
+    ]
+}
