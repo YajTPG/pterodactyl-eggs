@@ -17,7 +17,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#! \/bin\/bash\r\ncd \/home\/container\r\necho mmmmmmmmmmmmmm",
+            "script": null,
             "container": "debian:buster-slim",
             "entrypoint": "bash"
         }
