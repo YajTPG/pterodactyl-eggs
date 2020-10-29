@@ -11,7 +11,6 @@ Thanks for checking out my Pterodactyl Eggs!<br>
 # To Do List:
 - [ ] Add Rust lang
 - [ ] Add something else than Coding Languages
-- [ ] Add Java Lang
 - [ ] Add Git Integration to all the eggs.
 - [ ] Be active in this repository. 😂
 - [ ] Add Alpine alternatives for all the eggs for the people with low storage servers.
