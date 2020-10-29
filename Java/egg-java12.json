@@ -3,11 +3,11 @@
     "meta": {
         "version": "PTDL_v1"
     },
-    "exported_at": "2020-10-18T08:27:46-04:00",
-    "name": "dotnet 2.1",
+    "exported_at": "2020-10-29T12:16:58-04:00",
+    "name": "Java 12",
     "author": "yajtpg@gmail.com",
-    "description": "Pterodactyl Egg for dotNET 2.1",
-    "image": "quay.io\/yajtpg\/pterodactyl-images:dotNET-2.1",
+    "description": "Pterodactyl Egg for Java 12",
+    "image": "quay.io\/yajtpg\/pterodactyl-images:java12",
     "startup": ".\/start.sh",
     "config": {
         "files": "{}",
@@ -33,7 +33,7 @@
             "rules": "required|string|max:256"
         },
         {
-            "name": "Startup Command 2",
+            "name": "Startup Command 2 (Optional)",
             "description": "The second command used to run the server.",
             "env_variable": "SECOND_CMD",
             "default_value": "",

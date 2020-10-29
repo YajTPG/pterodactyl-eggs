@@ -39,7 +39,7 @@
             "default_value": "",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string|max:256"
+            "rules": "nullable|string|max:256"
         }
     ]
 }
