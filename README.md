@@ -9,8 +9,8 @@ I'd suggest you to keep in mind that the average size of the Docker image is ~50
 Thanks for checking out my Pterodactyl Eggs!<br>
 
 # To Do List:
-- [ ] Add Rust lang
-- [ ] Add something else than Coding Languages
+- [ ] Add Rust lang.
+- [ ] Add something else than Coding Languages.
 - [ ] Add Git Integration to all the eggs.
 - [ ] Be active in this repository. 😂
 - [ ] Add Alpine alternatives for all the eggs for the people with low storage servers.
