@@ -1,0 +1,57 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1",
+        "update_url": null
+    },
+    "exported_at": "2020-12-30T22:18:59-05:00",
+    "name": "NodeJS-Universal",
+    "author": "yajtpg@gmail.com",
+    "description": "NodeJS Universal Egg.",
+    "features": null,
+    "images": [
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-7",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-8",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-9",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-10",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-11",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-12",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-13",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-14",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-15"
+    ],
+    "startup": "\/start.sh",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{\r\n    \"custom\": true,\r\n    \"location\": \"logs\/latest.log\"\r\n}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "alpine:3.4",
+            "entrypoint": "ash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Startup Command 1",
+            "description": "First Command used to start the server.",
+            "env_variable": "STARTUP_CMD",
+            "default_value": "npm install --save --production",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:256"
+        },
+        {
+            "name": "Startup Command 2 (Optional)",
+            "description": "Second Startup Command",
+            "env_variable": "SECOND_CMD",
+            "default_value": "node .",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:256"
+        }
+    ]
+}

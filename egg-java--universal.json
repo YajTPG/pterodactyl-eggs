@@ -1,0 +1,57 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1",
+        "update_url": null
+    },
+    "exported_at": "2021-01-12T05:59:13-05:00",
+    "name": "Java-Universal",
+    "author": "yajtpg@gmail.com",
+    "description": "Java egg with compatibility for multiple Java versions.",
+    "features": null,
+    "images": [
+        "quay.io\/yajtpg\/pterodactyl-images:java8",
+        "quay.io\/yajtpg\/pterodactyl-images:java9",
+        "quay.io\/yajtpg\/pterodactyl-images:java10",
+        "quay.io\/yajtpg\/pterodactyl-images:java11",
+        "quay.io\/yajtpg\/pterodactyl-images:java12",
+        "quay.io\/yajtpg\/pterodactyl-images:java13",
+        "quay.io\/yajtpg\/pterodactyl-images:java14",
+        "quay.io\/yajtpg\/pterodactyl-images:java15",
+        "quay.io\/yajtpg\/pterodactyl-images:java16"
+    ],
+    "startup": "\/start.sh",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{\r\n    \"custom\": true,\r\n    \"location\": \"logs\/latest.log\"\r\n}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "debian:buster-slim",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Startup Command 1",
+            "description": "First Startup Command",
+            "env_variable": "STARTUP_CMD",
+            "default_value": "echo hi",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:128"
+        },
+        {
+            "name": "Startup Command 2 (Optional)",
+            "description": "Second Startup Command",
+            "env_variable": "SECOND_CMD",
+            "default_value": "java -jar bot.jar",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:128"
+        }
+    ]
+}

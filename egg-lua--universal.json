@@ -1,0 +1,52 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1",
+        "update_url": null
+    },
+    "exported_at": "2021-01-12T06:03:40-05:00",
+    "name": "Lua-Universal",
+    "author": "yajtpg@gmail.com",
+    "description": "Lua egg with compatibility for multiple Lua versions.",
+    "features": null,
+    "images": [
+        "quay.io\/yajtpg\/pterodactyl-images:lua-5.1",
+        "quay.io\/yajtpg\/pterodactyl-images:lua-5.2",
+        "quay.io\/yajtpg\/pterodactyl-images:lua-5.3",
+        "quay.io\/yajtpg\/pterodactyl-images:lua-5.4"
+    ],
+    "startup": "\/start.sh",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{\r\n    \"custom\": true,\r\n    \"location\": \"logs\/latest.log\"\r\n}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "debian:buster-slim",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Startup Command 1",
+            "description": "First Startup Command",
+            "env_variable": "STARTUP_CMD",
+            "default_value": "echo hi",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:128"
+        },
+        {
+            "name": "Startup Command 2 (Optional)",
+            "description": "Second Startup Command",
+            "env_variable": "SECOND_CMD",
+            "default_value": "luvit bot",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:128"
+        }
+    ]
+}
