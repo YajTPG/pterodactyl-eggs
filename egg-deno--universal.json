@@ -12,7 +12,8 @@
     "images": [
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.6.1",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.6.2",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.6.3"
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.6.3",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.7.0"
     ],
     "startup": "\/start.sh",
     "config": {
@@ -42,7 +43,7 @@
             "name": "Startup Command 2 (Optional)",
             "description": "Second Startup Command",
             "env_variable": "SECOND_CMD",
-            "default_value": "luvit bot",
+            "default_value": "deno -V",
             "user_viewable": true,
             "user_editable": true,
             "rules": "nullable|string|max:128"
