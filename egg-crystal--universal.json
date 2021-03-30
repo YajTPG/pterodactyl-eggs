@@ -13,7 +13,8 @@
         "quay.io\/yajtpg\/pterodactyl-images:crystal-0.34.0",
         "quay.io\/yajtpg\/pterodactyl-images:crystal-0.35.0",
         "quay.io\/yajtpg\/pterodactyl-images:crystal-0.35.1",
-        "quay.io\/yajtpg\/pterodactyl-images:crystal-0.36.1"
+        "quay.io\/yajtpg\/pterodactyl-images:crystal-0.36.1",
+        "quay.io\/yajtpg\/pterodactyl-images:crystal-1.0.0"
     ],
     "startup": "\/start.sh",
     "config": {

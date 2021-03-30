@@ -1,6 +1,8 @@
 # CHANGELOG
 
-⟶ Added Deno 1.8.0
+⟶ Added Deno 1.8.1  
+⟶ Added Deno 1.8.2  
+⟶ Added Crystal 1.0.0  
 
 ## 📌 Messages
 
