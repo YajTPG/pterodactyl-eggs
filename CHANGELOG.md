@@ -1,6 +1,6 @@
 # CHANGELOG
 
-⟶ Added Deno 1.8.3-1.9.1  
+⟶ Added NodeJS v16
 
 ## 📌 Messages
 
