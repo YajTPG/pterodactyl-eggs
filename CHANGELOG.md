@@ -1,6 +1,6 @@
 # CHANGELOG
 
-⟶ Added Deno 1.9.2-1.10.1
+⟶ Added Deno 1.10.2 (Security Release)
 
 ## 📌 Messages
 
