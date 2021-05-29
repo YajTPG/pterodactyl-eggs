@@ -7,7 +7,7 @@
     "exported_at": "2021-01-12T13:21:42-05:00",
     "name": "Deno-Universal",
     "author": "yajtpg@gmail.com",
-    "description": "Deno egg with compatibility for multiple Deno versions.",
+    "description": "Deno egg with compatibility for multiple Deno versions. ",
     "features": null,
     "images": [
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.6.1",
@@ -23,8 +23,11 @@
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.8.2",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.8.3",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.9.0",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.9.1"
-
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.9.1",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.9.2",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.0",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.1",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.2"
     ],
     "startup": "\/start.sh",
     "config": {
