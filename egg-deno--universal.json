@@ -27,7 +27,13 @@
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.9.2",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.0",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.1",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.2"
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.2",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.3",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.1",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.2",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.3",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.4",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.5"
     ],
     "startup": "\/start.sh",
     "config": {
