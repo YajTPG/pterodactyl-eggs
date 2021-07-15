@@ -33,7 +33,8 @@
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.2",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.3",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.4",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.5"
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.5",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.12.0"
     ],
     "startup": "\/start.sh",
     "config": {
