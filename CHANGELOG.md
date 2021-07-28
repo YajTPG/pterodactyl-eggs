@@ -1,6 +1,6 @@
 # CHANGELOG
 
-⟶ Added Deno 1.12.0
+⟶ Added Deno 1.12.1 and 1.12.2
 
 ## 📌 Messages
 
