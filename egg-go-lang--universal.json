@@ -12,7 +12,8 @@
     "images": [
         "quay.io\/yajtpg\/pterodactyl-images:go-1.14",
         "quay.io\/yajtpg\/pterodactyl-images:go-1.15",
-        "quay.io\/yajtpg\/pterodactyl-images:go-1.16"
+        "quay.io\/yajtpg\/pterodactyl-images:go-1.16",
+        "quay.io\/yajtpg\/pterodactyl-images:go-1.17"
     ],
     "startup": "\/start.sh",
     "config": {

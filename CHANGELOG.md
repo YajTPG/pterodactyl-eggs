@@ -1,7 +1,7 @@
 
 # CHANGELOG
 
-⟶ Added Deno 1.13.0-3
+⟶ Added Go 1.17
 
 ## 📌 Messages
 
