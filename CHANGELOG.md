@@ -1,7 +1,8 @@
 
 # CHANGELOG
 
-⟶ Added Go 1.17
+⟶ Added Go 1.17 \
+⟶ Removed older versions from the Deno egg
 
 ## 📌 Messages
 
