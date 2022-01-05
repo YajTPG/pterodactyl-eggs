@@ -10,18 +10,14 @@
     "description": "Deno egg with compatibility for multiple Deno versions. ",
     "features": null,
     "images": [
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.6.3",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.7.5",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.8.3",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.9.2",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.3",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.5",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.12.0",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.12.1",
         "quay.io\/yajtpg\/pterodactyl-images:deno-1.12.2",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.13.0",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.13.1",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.13.2"
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.13.2",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.14.3",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.15.0",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.16.4",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.17.1"
     ],
     "startup": "\/start.sh",
     "config": {

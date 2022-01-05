@@ -13,7 +13,8 @@
         "quay.io\/yajtpg\/pterodactyl-images:php-7.2",
         "quay.io\/yajtpg\/pterodactyl-images:php-7.3",
         "quay.io\/yajtpg\/pterodactyl-images:php-7.4",
-        "quay.io\/yajtpg\/pterodactyl-images:php-8.0"
+        "quay.io\/yajtpg\/pterodactyl-images:php-8.0",
+        "quay.io\/yajtpg\/pterodactyl-images:php-8.1"
     ],
     "startup": "\/start.sh",
     "config": {

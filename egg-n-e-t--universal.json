@@ -12,7 +12,8 @@
     "images": [
         "quay.io\/yajtpg\/pterodactyl-images:dotNET-2.1",
         "quay.io\/yajtpg\/pterodactyl-images:dotNET-3.1",
-        "quay.io\/yajtpg\/pterodactyl-images:dotNET-5.0"
+        "quay.io\/yajtpg\/pterodactyl-images:dotNET-5.0",
+        "quay.io\/yajtpg\/pterodactyl-images:dotNET-6.0"
     ],
     "startup": "\/start.sh",
     "config": {

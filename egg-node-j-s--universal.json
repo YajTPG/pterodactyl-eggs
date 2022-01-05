@@ -19,7 +19,8 @@
         "quay.io\/yajtpg\/pterodactyl-images:nodejs-13",
         "quay.io\/yajtpg\/pterodactyl-images:nodejs-14",
         "quay.io\/yajtpg\/pterodactyl-images:nodejs-15",
-        "quay.io\/yajtpg\/pterodactyl-images:nodejs-16"
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-16",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-17"
     ],
     "startup": "\/start.sh",
     "config": {
