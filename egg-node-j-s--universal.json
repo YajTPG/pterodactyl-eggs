@@ -10,13 +10,11 @@
     "description": "NodeJS Universal Egg.",
     "features": null,
     "images": [
-        "quay.io\/yajtpg\/pterodactyl-images:nodejs-10",
-        "quay.io\/yajtpg\/pterodactyl-images:nodejs-12",
         "quay.io\/yajtpg\/pterodactyl-images:nodejs-14",
-        "quay.io\/yajtpg\/pterodactyl-images:nodejs-15",
         "quay.io\/yajtpg\/pterodactyl-images:nodejs-16",
         "quay.io\/yajtpg\/pterodactyl-images:nodejs-17",
-        "quay.io\/yajtpg\/pterodactyl-images:nodejs-18"
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-18",
+        "quay.io\/yajtpg\/pterodactyl-images:nodejs-19"
     ],
     "startup": "\/start.sh",
     "config": {

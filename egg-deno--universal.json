@@ -10,14 +10,8 @@
     "description": "Deno egg with compatibility for multiple Deno versions. ",
     "features": null,
     "images": [
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.10.3",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.11.5",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.12.2",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.13.2",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.14.3",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.15.0",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.16.4",
-        "quay.io\/yajtpg\/pterodactyl-images:deno-1.17.1"
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.26.2",
+        "quay.io\/yajtpg\/pterodactyl-images:deno-1.27.1"
     ],
     "startup": "\/start.sh",
     "config": {
@@ -29,8 +23,8 @@
     "scripts": {
         "installation": {
             "script": null,
-            "container": "debian:buster-slim",
-            "entrypoint": "bash"
+            "container": "alpine:3",
+            "entrypoint": "ash"
         }
     },
     "variables": [

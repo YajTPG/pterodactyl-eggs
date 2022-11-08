@@ -10,8 +10,6 @@
     "description": "PHP egg with compatibility for multiple PHP versions.",
     "features": null,
     "images": [
-        "quay.io\/yajtpg\/pterodactyl-images:php-7.2",
-        "quay.io\/yajtpg\/pterodactyl-images:php-7.3",
         "quay.io\/yajtpg\/pterodactyl-images:php-7.4",
         "quay.io\/yajtpg\/pterodactyl-images:php-8.0",
         "quay.io\/yajtpg\/pterodactyl-images:php-8.1"
@@ -26,8 +24,8 @@
     "scripts": {
         "installation": {
             "script": null,
-            "container": "debian:buster-slim",
-            "entrypoint": "bash"
+            "container": "alpine:3",
+            "entrypoint": "ash"
         }
     },
     "variables": [
@@ -38,16 +36,16 @@
             "default_value": "echo hi",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string|max:128"
+            "rules": "required|string|max:256"
         },
         {
             "name": "Startup Command 2 (Optional)",
             "description": "Second Startup Command",
             "env_variable": "SECOND_CMD",
-            "default_value": "luvit bot",
+            "default_value": "php -v",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "nullable|string|max:128"
+            "rules": "nullable|string|max:256"
         }
     ]
 }
